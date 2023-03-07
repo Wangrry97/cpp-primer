@@ -14,6 +14,5 @@ int main()
     const int *const p3 = 0;
     const int ic = 0;
     p1 = p3;
-    system('pause');
     return 0;
 }

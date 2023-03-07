@@ -14,5 +14,6 @@ int main()
     const int *const p3 = 0;
     const int ic = 0;
     p1 = p3;
+    // 尝试pull
     return 0;
 }

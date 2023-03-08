@@ -2,15 +2,14 @@
     "configurations": [
         {
             "name": "Linux",
-            "includePath": [],
-            "defines": [
-                "_DEBUG",
-                "UNICODE"
+            "includePath": [
+                "${workspaceFolder}/**"
             ],
-            "compilerPath": "/usr/bin/g++",
-            "cStandard": "c11",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "${default}"
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4

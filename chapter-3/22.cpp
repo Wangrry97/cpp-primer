@@ -3,7 +3,7 @@
  * @email: wangrry@hotmail.com
  * @Date: 2023-03-13 21:41:18
  * @LastEditors: wrry wangrry@hotmail.com
- * @LastEditTime: 2023-03-13 23:42:02
+ * @LastEditTime: 2023-03-14 09:57:54
  * @FilePath: /cpp-primer/chapter-3/22.cpp
  * @Description:
  * 假设用一个名为text的字符串向量存放文本文件中的数据，其中的元素
@@ -22,8 +22,6 @@ int main()
     string s;
     while (getline(cin, s))
         text.push_back(s);
-
-    cout << text.size() << endl;
 
     for (auto it = text.begin();
          it != text.end() && !it->empty(); it++)
